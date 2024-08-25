@@ -1,0 +1,13 @@
+{{>partials/header}}
+<div class="container list">
+{{nome}}
+    {{#filterAnimals}}
+    <div class="item">
+        <img src="images/{{img}}" class="item--image" />
+        <div class="item--name">{{animal}}</div>
+        <div class="item--color">Cor: Amarelo e Preto</div>
+        <div class="item--genre">Gênero: Masculino</div>
+    </div>
+    {{/filterAnimals}}
+</div>
+{{>partials/footer}}
